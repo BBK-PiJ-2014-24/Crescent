@@ -1,0 +1,32 @@
+.splashpage {
+    height:100vh;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background: url(../assets/danny-de-groot-kUsaVA68ZbU-unsplash.jpg) no-repeat center center/cover; */
+    background: url(../assets/tsuyuri-hara-TVO0e1Tjzqk-unsplash.jpg) no-repeat center center/cover;
+    /* position: relative; */
+}
+
+
+
+/* .spashpage::before {
+    position:absolute;
+    content:'';
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    filter:grayscale(100%);
+    z-index: -1;
+} */
+
+container {
+}
+
+.page h1 {
+    color: pink;
+}
+

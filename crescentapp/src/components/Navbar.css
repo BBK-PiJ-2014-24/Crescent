@@ -1,0 +1,57 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(35, 35, 80);
+  color: white;
+  padding: 0 30px;
+  z-index: 10; /* change if you want to have page showing through */
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+}
+
+.logo span{
+  margin-left: 15px;
+  font-family: 'Commissioner';
+  font-weight: 300;
+  color:grey;
+  letter-spacing: 1.0px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  color: burlywood;
+}
+
+.navbar-container > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-container li {
+    padding: 0 15px;
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-container li:hover {
+  font-weight: bold;
+  background-color: rgba(213, 87, 125, 0.7);
+  text-decoration: underline;
+  padding: 15px;
+}
+
+.navbar-container li:first-letter {
+    text-transform: uppercase;
+}
