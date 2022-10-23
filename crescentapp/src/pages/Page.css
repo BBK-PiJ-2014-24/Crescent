@@ -11,7 +11,7 @@
     left:0;
     height: 100%;
     width: 100%;
-    background: url(../assets/tsuyuri-hara-TVO0e1Tjzqk-unsplash.jpg) no-repeat center center/cover;
+    /* background: url(../assets/tsuyuri-hara-TVO0e1Tjzqk-unsplash.jpg) no-repeat center center/cover; */
     background: url(../assets/sail.jpg) no-repeat center center/cover;
     /* filter:grayscale(80%); */
     opacity: 0.5;
